@@ -12,10 +12,10 @@ This repository contains the implementation of I2C bus system with a master and 
 > **Note:** Each slave device (Memory, FIFO, and LIFO) will undergo individual verification to ensure its functionality and compliance with the I2C protocol.
 
 **General Structure** 
-![I2C general](https://github.com/MohamedHussein27/UART-With-FIFOs/blob/main/Structure/UART%20Structure.png)
+![I2C general](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/General%20Structure.png)
 
 **Implemented Structure**
-![I2C implemented](https://github.com/MohamedHussein27/UART-With-FIFOs/blob/main/Structure/UART%20Structure.png)
+![I2C implemented](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/Implemented%20Structure.png)
 
 ## Work Idea
 
@@ -54,6 +54,8 @@ This repository contains the implementation of I2C bus system with a master and 
 - **Bus Arbitration** prevents conflicts when multiple masters exist (if applicable).
 - Each slave implements **overflow/underflow protection** to prevent invalid operations.
 
+![I2C Explanation](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/Explanation.png)
+
 ---
 
 ## Verifying Functionality
@@ -62,3 +64,65 @@ This repository contains the implementation of I2C bus system with a master and 
 
 in this section we will have a quick view on the full waveforms for each slave, for more details try to check the I2C documentation: link
 
+- **Memory**
+
+Full waveform of Memory slave
+![I2C MEMORY](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/Memory%20Full.png)
+
+you should comment the other two slaves just like in the snapshot.
+![I2C MEMORY](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/Memory%20snap.png)
+
+- **FIFO**
+
+Full waveform of FIFO slave
+![I2C FIFO](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/FIFO%20full.png)
+
+you should comment the other two slaves just like in the snapshot.
+![I2C FIFO](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/FIFO%20snap.png)
+
+- **LIFO**
+
+Full waveform of LIFO slave
+![I2C LIFO](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/LIFO%20full.png)
+
+you should comment the other two slaves just like in the snapshot.
+![I2C LIFO](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/LIFO%20snap.png)
+
+---
+
+## Vivado
+
+> **Note:** After verification, each slave will be synthesized, implemented, and elaborated using Vivado to ensure successful hardware realization. 
+
+- **Memory**
+
+- Elaboration:
+![Elaboration](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/Memory%20Elaboration.png)
+
+- Synthesis:
+![Synthesis](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/Memory%20Synthesis.png)
+
+
+- **FIFO**
+
+- Elaboration:
+![Elaboration](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/FIFO%20Elaboration.png)
+
+- Synthesis:
+![Synthesis](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/FIFO%20synthesis.png)
+
+
+- **LIFO**
+
+- Elaboration:
+![Elaboration](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/LIFO%20elaboration.png)
+
+- Synthesis:
+![Synthesis](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/LIFO%20synthesis.png)
+
+---
+
+## Contact Me!
+- [Email](mailto:Mohamed_Hussein2100924@outlook.com)
+- [WhatsApp](https://wa.me/+2001097685797)
+- [LinkedIn](https://www.linkedin.com/in/mohamed-hussein-274337231)
