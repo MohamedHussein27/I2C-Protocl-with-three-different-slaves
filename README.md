@@ -64,28 +64,28 @@ This repository contains the implementation of I2C bus system with a master and 
 
 in this section we will have a quick view on the full waveforms for each slave, for more details try to check the I2C documentation: link
 
-- **Memory**
+### Memory
 
-Full waveform of Memory slave
+- Full waveform of Memory slave
 ![I2C MEMORY](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/Memory%20Full.png)
 
-you should comment the other two slaves just like in the snapshot.
+- you should comment the other two slaves just like in the snapshot.
 ![I2C MEMORY](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/Memory%20snap.png)
 
-- **FIFO**
+### FIFO
 
-Full waveform of FIFO slave
+- Full waveform of FIFO slave
 ![I2C FIFO](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/FIFO%20full.png)
 
-you should comment the other two slaves just like in the snapshot.
+- you should comment the other two slaves just like in the snapshot.
 ![I2C FIFO](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/FIFO%20snap.png)
 
-- **LIFO**
+### LIFO
 
-Full waveform of LIFO slave
+- Full waveform of LIFO slave
 ![I2C LIFO](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/LIFO%20full.png)
 
-you should comment the other two slaves just like in the snapshot.
+- you should comment the other two slaves just like in the snapshot.
 ![I2C LIFO](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/LIFO%20snap.png)
 
 ---
@@ -94,7 +94,7 @@ you should comment the other two slaves just like in the snapshot.
 
 > **Note:** After verification, each slave will be synthesized, implemented, and elaborated using Vivado to ensure successful hardware realization. 
 
-**Memory**
+### Memory
 
 - Elaboration:
 ![Elaboration](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/Memory%20Elaboration.png)
@@ -103,7 +103,7 @@ you should comment the other two slaves just like in the snapshot.
 ![Synthesis](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/Memory%20Synthesis.png)
 
 
-**FIFO**
+### FIFO
 
 - Elaboration:
 ![Elaboration](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/FIFO%20Elaboration.png)
@@ -112,7 +112,7 @@ you should comment the other two slaves just like in the snapshot.
 ![Synthesis](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/FIFO%20synthesis.png)
 
 
-**LIFO**
+### LIFO
 
 - Elaboration:
 ![Elaboration](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/LIFO%20elaboration.png)
