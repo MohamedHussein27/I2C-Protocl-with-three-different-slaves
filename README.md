@@ -62,7 +62,7 @@ This repository contains the implementation of I2C bus system with a master and 
 
 > **Note:** In QuestaSim simulation snapshots, the Master will be highlighted in gold, while the Slave (any of the three) will be highlighted in blue for clarity and differentiation.
 
-in this section we will have a quick view on the full waveforms for each slave, for more details try to check the I2C documentation: link
+in this section we will have a quick view on the full waveforms for each slave, for more details try to check the ![I2C documentation](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Documentation/I2C_Documentation.pdf)
 
 ### Memory
 
