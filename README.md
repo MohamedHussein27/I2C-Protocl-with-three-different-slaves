@@ -94,7 +94,7 @@ you should comment the other two slaves just like in the snapshot.
 
 > **Note:** After verification, each slave will be synthesized, implemented, and elaborated using Vivado to ensure successful hardware realization. 
 
-- **Memory**
+**Memory**
 
 - Elaboration:
 ![Elaboration](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/Memory%20Elaboration.png)
@@ -103,7 +103,7 @@ you should comment the other two slaves just like in the snapshot.
 ![Synthesis](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/Memory%20Synthesis.png)
 
 
-- **FIFO**
+**FIFO**
 
 - Elaboration:
 ![Elaboration](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/FIFO%20Elaboration.png)
@@ -112,7 +112,7 @@ you should comment the other two slaves just like in the snapshot.
 ![Synthesis](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/FIFO%20synthesis.png)
 
 
-- **LIFO**
+**LIFO**
 
 - Elaboration:
 ![Elaboration](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/LIFO%20elaboration.png)
